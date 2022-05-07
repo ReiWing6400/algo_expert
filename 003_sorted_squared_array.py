@@ -52,4 +52,4 @@ def sorted_squared_array(array):
     return sorted_squares
 
 
-print(sorted_squared_array_my(sorted([-2, -12, 22, 321, -13, 3, 14])))
+print(sorted_squared_array_my(sorted([-2, -12, 22, 2, -13, 3, 14])))
