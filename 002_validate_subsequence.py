@@ -9,6 +9,7 @@ def validate_subsequence_while(array, sequence):
     return seq_idx == len(sequence)
 
 
+# O(n) time | O(1) space
 def validate_subsequence_for(array, sequence):
     seq_idx = 0
     for value in array:
@@ -20,4 +21,3 @@ def validate_subsequence_for(array, sequence):
 
 
 print(validate_subsequence_for([1, 2, 3], [1, 2]))
-
